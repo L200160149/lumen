@@ -84,3 +84,5 @@ $router->get('foo/bar', 'ExampleController@fooBar');
 $router->post('bar/foo', 'ExampleController@fooBar');
 
 $router->post('/user/profile/request', 'ExampleController@userProfile');
+
+$router->get('/response', 'ExampleController@response');
